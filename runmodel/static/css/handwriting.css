@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Jua', sans-serif;
+}
+@font-face {
+  font-family: 'GowunDodum-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EliceDigitalBaeum_Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF_IceLemon';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_IceLemon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IM_Hyemin-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HSYuji-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSYuji-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.image-upload {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    background-color: #E5D0AD;
+    width: 13%;
+    border-radius: 30px;
+    padding: 8px;
+    justify-content: center;
+    margin : auto
+}
+
+#pdfdown {
+    background-color: #E5D0AD;
+    width: 14%;
+    border: 0;
+    border-radius: 30px;
+    padding: 8px;
+    justify-content: center;
+    margin : auto
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.download {
+    background-color: #E5D0AD;
+    width: 13%;
+    border-radius: 30px;
+    padding: 8px;
+    justify-content: center;
+    margin : auto
+}
+
+label {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+
+
+#chooseFile {
+    visibility: hidden;
+}
+
+.fileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fileInput {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px #E5D0AD;
+    width: 60%;
+    height: 30px;
+}
+
+#fileName {
+    margin-left: 5px;
+}
+
+.buttonContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+    background-color: #E5D0AD;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.image-show {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    position: absolute;
+}
+
+#submitButton{
+  color: #000;
+  border: 0;
+  font-size: 20px;
+  font-family: 'Jua', sans-serif;
+  background-color: #F5F5DC;
+  position: relative;
+  left: 10;
+  bottom:25;
+  margin-right: 10;
+}
+
+#submitButton:hover{
+  background-color: #E5D0AD;
+}

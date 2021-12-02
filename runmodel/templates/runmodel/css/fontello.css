@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?47556480');
+  src: url('../font/fontello.eot?47556480#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?47556480') format('woff2'),
+       url('../font/fontello.woff?47556480') format('woff'),
+       url('../font/fontello.ttf?47556480') format('truetype'),
+       url('../font/fontello.svg?47556480#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?47556480#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  /* margin-right: .2em; */
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* margin-left: .2em; */
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-가:before { content: '\ac00'; } /* '가' */
+.icon-각:before { content: '\ac01'; } /* '각' */
+.icon-간:before { content: '\ac04'; } /* '간' */
+.icon-갈:before { content: '\ac08'; } /* '갈' */
+.icon-감:before { content: '\ac10'; } /* '감' */
+.icon-갑:before { content: '\ac11'; } /* '갑' */
+.icon-강:before { content: '\ac15'; } /* '강' */
+.icon-갖:before { content: '\ac16'; } /* '갖' */
+.icon-같:before { content: '\ac19'; } /* '같' */
+.icon-거:before { content: '\ac70'; } /* '거' */
+.icon-건:before { content: '\ac74'; } /* '건' */
+.icon-걸:before { content: '\ac78'; } /* '걸' */
+.icon-것:before { content: '\ac83'; } /* '것' */
+.icon-게:before { content: '\ac8c'; } /* '게' */
+.icon-겠:before { content: '\aca0'; } /* '겠' */
+.icon-겨:before { content: '\aca8'; } /* '겨' */
+.icon-격:before { content: '\aca9'; } /* '격' */
+.icon-경:before { content: '\acbd'; } /* '경' */
+.icon-계:before { content: '\acc4'; } /* '계' */
+.icon-고:before { content: '\ace0'; } /* '고' */
+.icon-곡:before { content: '\ace1'; } /* '곡' */
+.icon-공:before { content: '\acf5'; } /* '공' */
+.icon-과:before { content: '\acfc'; } /* '과' */
+.icon-관:before { content: '\ad00'; } /* '관' */
+.icon-교:before { content: '\ad50'; } /* '교' */
+.icon-구:before { content: '\ad6c'; } /* '구' */
+.icon-그:before { content: '\adf8'; } /* '그' */
+.icon-근:before { content: '\adfc'; } /* '근' */
+.icon-금:before { content: '\ae08'; } /* '금' */
+.icon-기:before { content: '\ae30'; } /* '기' */
+.icon-긴:before { content: '\ae34'; } /* '긴' */
+.icon-길:before { content: '\ae38'; } /* '길' */
+.icon-까:before { content: '\ae4c'; } /* '까' */
+.icon-깨:before { content: '\ae68'; } /* '깨' */
+.icon-께:before { content: '\aed8'; } /* '께' */
+.icon-껴:before { content: '\aef4'; } /* '껴' */
+.icon-꼭:before { content: '\af2d'; } /* '꼭' */
+.icon-끝:before { content: '\b05d'; } /* '끝' */
+.icon-나:before { content: '\b098'; } /* '나' */
+.icon-난:before { content: '\b09c'; } /* '난' */
+.icon-날:before { content: '\b0a0'; } /* '날' */
+.icon-내:before { content: '\b0b4'; } /* '내' */
+.icon-너:before { content: '\b108'; } /* '너' */
+.icon-년:before { content: '\b144'; } /* '년' */
+.icon-노:before { content: '\b178'; } /* '노' */
+.icon-논:before { content: '\b17c'; } /* '논' */
+.icon-놀:before { content: '\b180'; } /* '놀' */
+.icon-놨:before { content: '\b1a8'; } /* '놨' */
+.icon-느:before { content: '\b290'; } /* '느' */
+.icon-는:before { content: '\b294'; } /* '는' */
+.icon-늘:before { content: '\b298'; } /* '늘' */
+.icon-능:before { content: '\b2a5'; } /* '능' */
+.icon-니:before { content: '\b2c8'; } /* '니' */
+.icon-닌:before { content: '\b2cc'; } /* '닌' */
+.icon-님:before { content: '\b2d8'; } /* '님' */
+.icon-다:before { content: '\b2e4'; } /* '다' */
+.icon-단:before { content: '\b2e8'; } /* '단' */
+.icon-달:before { content: '\b2ec'; } /* '달' */
+.icon-대:before { content: '\b300'; } /* '대' */
+.icon-더:before { content: '\b354'; } /* '더' */
+.icon-덕:before { content: '\b355'; } /* '덕' */
+.icon-던:before { content: '\b358'; } /* '던' */
+.icon-데:before { content: '\b370'; } /* '데' */
+.icon-도:before { content: '\b3c4'; } /* '도' */
+.icon-동:before { content: '\b3d9'; } /* '동' */
+.icon-됐:before { content: '\b410'; } /* '됐' */
+.icon-되:before { content: '\b418'; } /* '되' */
+.icon-된:before { content: '\b41c'; } /* '된' */
+.icon-될:before { content: '\b420'; } /* '될' */
+.icon-두:before { content: '\b450'; } /* '두' */
+.icon-둘:before { content: '\b458'; } /* '둘' */
+.icon-뒤:before { content: '\b4a4'; } /* '뒤' */
+.icon-드:before { content: '\b4dc'; } /* '드' */
+.icon-들:before { content: '\b4e4'; } /* '들' */
+.icon-듯:before { content: '\b4ef'; } /* '듯' */
+.icon-등:before { content: '\b4f1'; } /* '등' */
+.icon-디:before { content: '\b514'; } /* '디' */
+.icon-딱:before { content: '\b531'; } /* '딱' */
+.icon-때:before { content: '\b54c'; } /* '때' */
+.icon-떨:before { content: '\b5a8'; } /* '떨' */
+.icon-라:before { content: '\b77c'; } /* '라' */
+.icon-람:before { content: '\b78c'; } /* '람' */
+.icon-랐:before { content: '\b790'; } /* '랐' */
+.icon-랑:before { content: '\b791'; } /* '랑' */
+.icon-래:before { content: '\b798'; } /* '래' */
+.icon-랜:before { content: '\b79c'; } /* '랜' */
+.icon-러:before { content: '\b7ec'; } /* '러' */
+.icon-런:before { content: '\b7f0'; } /* '런' */
+.icon-럴:before { content: '\b7f4'; } /* '럴' */
+.icon-럽:before { content: '\b7fd'; } /* '럽' */
+.icon-렇:before { content: '\b807'; } /* '렇' */
+.icon-레:before { content: '\b808'; } /* '레' */
+.icon-려:before { content: '\b824'; } /* '려' */
+.icon-력:before { content: '\b825'; } /* '력' */
+.icon-렸:before { content: '\b838'; } /* '렸' */
+.icon-로:before { content: '\b85c'; } /* '로' */
+.icon-록:before { content: '\b85d'; } /* '록' */
+.icon-롱:before { content: '\b871'; } /* '롱' */
+.icon-루:before { content: '\b8e8'; } /* '루' */
+.icon-뤄:before { content: '\b904'; } /* '뤄' */
+.icon-르:before { content: '\b974'; } /* '르' */
+.icon-른:before { content: '\b978'; } /* '른' */
+.icon-를:before { content: '\b97c'; } /* '를' */
+.icon-리:before { content: '\b9ac'; } /* '리' */
+.icon-린:before { content: '\b9b0'; } /* '린' */
+.icon-릴:before { content: '\b9b4'; } /* '릴' */
+.icon-마:before { content: '\b9c8'; } /* '마' */
+.icon-만:before { content: '\b9cc'; } /* '만' */
+.icon-많:before { content: '\b9ce'; } /* '많' */
+.icon-맛:before { content: '\b9db'; } /* '맛' */
+.icon-매:before { content: '\b9e4'; } /* '매' */
+.icon-먹:before { content: '\ba39'; } /* '먹' */
+.icon-멀:before { content: '\ba40'; } /* '멀' */
+.icon-며:before { content: '\ba70'; } /* '며' */
+.icon-면:before { content: '\ba74'; } /* '면' */
+.icon-모:before { content: '\baa8'; } /* '모' */
+.icon-못:before { content: '\babb'; } /* '못' */
+.icon-묘:before { content: '\bb18'; } /* '묘' */
+.icon-무:before { content: '\bb34'; } /* '무' */
+.icon-문:before { content: '\bb38'; } /* '문' */
+.icon-뭐:before { content: '\bb50'; } /* '뭐' */
+.icon-미:before { content: '\bbf8'; } /* '미' */
+.icon-밌:before { content: '\bc0c'; } /* '밌' */
+.icon-바:before { content: '\bc14'; } /* '바' */
+.icon-반:before { content: '\bc18'; } /* '반' */
+.icon-받:before { content: '\bc1b'; } /* '받' */
+.icon-발:before { content: '\bc1c'; } /* '발' */
+.icon-배:before { content: '\bc30'; } /* '배' */
+.icon-버:before { content: '\bc84'; } /* '버' */
+.icon-번:before { content: '\bc88'; } /* '번' */
+.icon-벌:before { content: '\bc8c'; } /* '벌' */
+.icon-베:before { content: '\bca0'; } /* '베' */
+.icon-벤:before { content: '\bca4'; } /* '벤' */
+.icon-별:before { content: '\bcc4'; } /* '별' */
+.icon-보:before { content: '\bcf4'; } /* '보' */
+.icon-본:before { content: '\bcf8'; } /* '본' */
+.icon-봐:before { content: '\bd10'; } /* '봐' */
+.icon-부:before { content: '\bd80'; } /* '부' */
+.icon-분:before { content: '\bd84'; } /* '분' */
+.icon-붙:before { content: '\bd99'; } /* '붙' */
+.icon-비:before { content: '\be44'; } /* '비' */
+.icon-빠:before { content: '\be60'; } /* '빠' */
+.icon-빨:before { content: '\be68'; } /* '빨' */
+.icon-뿌:before { content: '\bfcc'; } /* '뿌' */
+.icon-사:before { content: '\c0ac'; } /* '사' */
+.icon-살:before { content: '\c0b4'; } /* '살' */
+.icon-샀:before { content: '\c0c0'; } /* '샀' */
+.icon-상:before { content: '\c0c1'; } /* '상' */
+.icon-새:before { content: '\c0c8'; } /* '새' */
+.icon-생:before { content: '\c0dd'; } /* '생' */
+.icon-서:before { content: '\c11c'; } /* '서' */
+.icon-선:before { content: '\c120'; } /* '선' */
+.icon-셨:before { content: '\c168'; } /* '셨' */
+.icon-소:before { content: '\c18c'; } /* '소' */
+.icon-속:before { content: '\c18d'; } /* '속' */
+.icon-수:before { content: '\c218'; } /* '수' */
+.icon-스:before { content: '\c2a4'; } /* '스' */
+.icon-슬:before { content: '\c2ac'; } /* '슬' */
+.icon-습:before { content: '\c2b5'; } /* '습' */
+.icon-시:before { content: '\c2dc'; } /* '시' */
+.icon-식:before { content: '\c2dd'; } /* '식' */
+.icon-신:before { content: '\c2e0'; } /* '신' */
+.icon-실:before { content: '\c2e4'; } /* '실' */
+.icon-심:before { content: '\c2ec'; } /* '심' */
+.icon-싶:before { content: '\c2f6'; } /* '싶' */
+.icon-써:before { content: '\c368'; } /* '써' */
+.icon-아:before { content: '\c544'; } /* '아' */
+.icon-안:before { content: '\c548'; } /* '안' */
+.icon-않:before { content: '\c54a'; } /* '않' */
+.icon-알:before { content: '\c54c'; } /* '알' */
+.icon-았:before { content: '\c558'; } /* '았' */
+.icon-야:before { content: '\c57c'; } /* '야' */
+.icon-어:before { content: '\c5b4'; } /* '어' */
+.icon-억:before { content: '\c5b5'; } /* '억' */
+.icon-언:before { content: '\c5b8'; } /* '언' */
+.icon-얼:before { content: '\c5bc'; } /* '얼' */
+.icon-엄:before { content: '\c5c4'; } /* '엄' */
+.icon-업:before { content: '\c5c5'; } /* '업' */
+.icon-었:before { content: '\c5c8'; } /* '었' */
+.icon-엊:before { content: '\c5ca'; } /* '엊' */
+.icon-에:before { content: '\c5d0'; } /* '에' */
+.icon-여:before { content: '\c5ec'; } /* '여' */
+.icon-연:before { content: '\c5f0'; } /* '연' */
+.icon-열:before { content: '\c5f4'; } /* '열' */
+.icon-였:before { content: '\c600'; } /* '였' */
+.icon-오:before { content: '\c624'; } /* '오' */
+.icon-와:before { content: '\c640'; } /* '와' */
+.icon-완:before { content: '\c644'; } /* '완' */
+.icon-우:before { content: '\c6b0'; } /* '우' */
+.icon-운:before { content: '\c6b4'; } /* '운' */
+.icon-울:before { content: '\c6b8'; } /* '울' */
+.icon-움:before { content: '\c6c0'; } /* '움' */
+.icon-원:before { content: '\c6d0'; } /* '원' */
+.icon-월:before { content: '\c6d4'; } /* '월' */
+.icon-웠:before { content: '\c6e0'; } /* '웠' */
+.icon-위:before { content: '\c704'; } /* '위' */
+.icon-유:before { content: '\c720'; } /* '유' */
+.icon-육:before { content: '\c721'; } /* '육' */
+.icon-율:before { content: '\c728'; } /* '율' */
+.icon-으:before { content: '\c73c'; } /* '으' */
+.icon-은:before { content: '\c740'; } /* '은' */
+.icon-을:before { content: '\c744'; } /* '을' */
+.icon-음:before { content: '\c74c'; } /* '음' */
+.icon-의:before { content: '\c758'; } /* '의' */
+.icon-이:before { content: '\c774'; } /* '이' */
+.icon-인:before { content: '\c778'; } /* '인' */
+.icon-일:before { content: '\c77c'; } /* '일' */
+.icon-입:before { content: '\c785'; } /* '입' */
+.icon-있:before { content: '\c788'; } /* '있' */
+.icon-자:before { content: '\c790'; } /* '자' */
+.icon-작:before { content: '\c791'; } /* '작' */
+.icon-잘:before { content: '\c798'; } /* '잘' */
+.icon-잡:before { content: '\c7a1'; } /* '잡' */
+.icon-장:before { content: '\c7a5'; } /* '장' */
+.icon-재:before { content: '\c7ac'; } /* '재' */
+.icon-전:before { content: '\c804'; } /* '전' */
+.icon-점:before { content: '\c810'; } /* '점' */
+.icon-제:before { content: '\c81c'; } /* '제' */
+.icon-져:before { content: '\c838'; } /* '져' */
+.icon-조:before { content: '\c870'; } /* '조' */
+.icon-졸:before { content: '\c878'; } /* '졸' */
+.icon-종:before { content: '\c885'; } /* '종' */
+.icon-좋:before { content: '\c88b'; } /* '좋' */
+.icon-주:before { content: '\c8fc'; } /* '주' */
+.icon-죽:before { content: '\c8fd'; } /* '죽' */
+.icon-중:before { content: '\c911'; } /* '중' */
+.icon-즐:before { content: '\c990'; } /* '즐' */
+.icon-증:before { content: '\c99d'; } /* '증' */
+.icon-지:before { content: '\c9c0'; } /* '지' */
+.icon-직:before { content: '\c9c1'; } /* '직' */
+.icon-진:before { content: '\c9c4'; } /* '진' */
+.icon-집:before { content: '\c9d1'; } /* '집' */
+.icon-짜:before { content: '\c9dc'; } /* '짜' */
+.icon-쪽:before { content: '\cabd'; } /* '쪽' */
+.icon-차:before { content: '\cc28'; } /* '차' */
+.icon-찬:before { content: '\cc2c'; } /* '찬' */
+.icon-참:before { content: '\cc38'; } /* '참' */
+.icon-처:before { content: '\cc98'; } /* '처' */
+.icon-첫:before { content: '\ccab'; } /* '첫' */
+.icon-청:before { content: '\ccad'; } /* '청' */
+.icon-체:before { content: '\ccb4'; } /* '체' */
+.icon-쳤:before { content: '\cce4'; } /* '쳤' */
+.icon-초:before { content: '\cd08'; } /* '초' */
+.icon-최:before { content: '\cd5c'; } /* '최' */
+.icon-치:before { content: '\ce58'; } /* '치' */
+.icon-칠:before { content: '\ce60'; } /* '칠' */
+.icon-칭:before { content: '\ce6d'; } /* '칭' */
+.icon-캘:before { content: '\ce98'; } /* '캘' */
+.icon-캡:before { content: '\cea1'; } /* '캡' */
+.icon-코:before { content: '\cf54'; } /* '코' */
+.icon-큐:before { content: '\d050'; } /* '큐' */
+.icon-크:before { content: '\d06c'; } /* '크' */
+.icon-태:before { content: '\d0dc'; } /* '태' */
+.icon-택:before { content: '\d0dd'; } /* '택' */
+.icon-터:before { content: '\d130'; } /* '터' */
+.icon-턴:before { content: '\d134'; } /* '턴' */
+.icon-톤:before { content: '\d1a4'; } /* '톤' */
+.icon-통:before { content: '\d1b5'; } /* '통' */
+.icon-트:before { content: '\d2b8'; } /* '트' */
+.icon-틀:before { content: '\d2c0'; } /* '틀' */
+.icon-팀:before { content: '\d300'; } /* '팀' */
+.icon-파:before { content: '\d30c'; } /* '파' */
+.icon-팔:before { content: '\d314'; } /* '팔' */
+.icon-퍼:before { content: '\d37c'; } /* '퍼' */
+.icon-표:before { content: '\d45c'; } /* '표' */
+.icon-플:before { content: '\d50c'; } /* '플' */
+.icon-피:before { content: '\d53c'; } /* '피' */
+.icon-필:before { content: '\d544'; } /* '필' */
+.icon-하:before { content: '\d558'; } /* '하' */
+.icon-학:before { content: '\d559'; } /* '학' */
+.icon-한:before { content: '\d55c'; } /* '한' */
+.icon-할:before { content: '\d560'; } /* '할' */
+.icon-함:before { content: '\d568'; } /* '함' */
+.icon-해:before { content: '\d574'; } /* '해' */
+.icon-핸:before { content: '\d578'; } /* '핸' */
+.icon-했:before { content: '\d588'; } /* '했' */
+.icon-행:before { content: '\d589'; } /* '행' */
+.icon-허:before { content: '\d5c8'; } /* '허' */
+.icon-험:before { content: '\d5d8'; } /* '험' */
+.icon-현:before { content: '\d604'; } /* '현' */
+.icon-환:before { content: '\d658'; } /* '환' */
+.icon-회:before { content: '\d68c'; } /* '회' */
+.icon-후:before { content: '\d6c4'; } /* '후' */
+.icon-휴:before { content: '\d734'; } /* '휴' */
+.icon-히:before { content: '\d788'; } /* '히' */
+.icon-힘:before { content: '\d798'; } /* '힘' */
