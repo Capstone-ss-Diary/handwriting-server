@@ -7,3 +7,4 @@ runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.meta
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.index
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.data-00000-of-00001
 runmodel/migrations/*
+db.sqlite3
