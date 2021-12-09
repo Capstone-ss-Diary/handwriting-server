@@ -2,7 +2,6 @@ venv/
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/*
 runmodel/source/samples/*
 *.pyc
-runmodel/source/experiment/checkpoint/experiment_0_batch_16/checkpoint
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.meta
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.index
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.data-00000-of-00001
