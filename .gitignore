@@ -8,3 +8,7 @@ runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.inde
 runmodel/source/experiment/checkpoint/experiment_0_batch_16/unet.model-1300.data-00000-of-00001
 runmodel/migrations/*
 db.sqlite3
+runmodel/source/experiment/logs/*
+runmodel/source/experiment/data/*
+media/hand_writing/*.jpg
+media/hand_writing/*.png

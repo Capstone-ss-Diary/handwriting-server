@@ -18,10 +18,10 @@ def handwriting(request):
 
       data_file = HandWriting.objects.filter(user_id=request.session.get("user"))
 
-      # handwriting_function.create_handwriting_dataset(data_file[len(data_file)-1].image)
-      # handwriting_function.train_handwriting()
-      # handwriting_function.infer_handwriting()
-      # handwriting_function.create_svg_files()
+      handwriting_function.create_handwriting_dataset(data_file[len(data_file)-1].image)
+      handwriting_function.train_handwriting()
+      handwriting_function.infer_handwriting()
+      handwriting_function.create_svg_files()
       handwriting_function.download_fontello()
 
 
