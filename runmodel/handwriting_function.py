@@ -386,10 +386,10 @@ def train_handwriting():
     inst_norm = 0
     flip_labels = None
 
-    config = tf.ConfigProto()
+    config = tf.compat.v1.ConfigProto()
     config.gpu_options.allow_growth = True
 
-    with tf.Session(config=config) as sess:
+    with tf.compat.v1.Session(config=config) as sess:
         model = UNet(experiment_dir, batch_size=batch_size, experiment_id=experiment_id,
                     input_width=image_size, output_width=image_size, embedding_num=embedding_num,
                     embedding_dim=embedding_dim, L1_penalty=L1_penalty, Lconst_penalty=Lconst_penalty,
